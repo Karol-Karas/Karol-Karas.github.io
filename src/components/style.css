@@ -1,0 +1,30 @@
+.playBtn {
+    background: linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+    background-color: #eae0c2;
+    border-radius: 23px;
+    display: inline-block;
+    cursor: pointer;
+    color: #505739;
+    font-family: Trebuchet MS;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px 13px;
+    text-decoration: none;
+}
+
+.playBtn:hover {
+    background: linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+}
+
+.playBtn:active {
+    position: relative;
+    top: 1px;
+}
+
+#typeinp {
+    transform: rotate(-90deg);
+    transform-origin: 75px 75px;
+    width: 50px;
+    height: 20px;
+    margin: 0;
+}
